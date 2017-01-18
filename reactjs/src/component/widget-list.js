@@ -25,5 +25,10 @@ class WidgetList extends Component {
   }
 }
 
+WidgetList.propTypes = {
+  wlist: React.PropTypes.array,
+  selectWidget: React.PropTypes.func
+};
+
 
 export default WidgetList;

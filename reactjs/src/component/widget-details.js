@@ -18,4 +18,8 @@ class WidgetDetails extends Component {
 
 }
 
+WidgetDetails.propTypes = {
+  widget: React.PropTypes.object
+};
+
 export default WidgetDetails;
