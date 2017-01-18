@@ -1,14 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
+
+import WidgetContainer from './component/widget-container';
+
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <p>Your code here</p>
-      </div>
-    );
-  }
-}
+
+
+const App = () => (
+  <div className="App">
+    <WidgetContainer />
+  </div>
+);
 
 export default App;
